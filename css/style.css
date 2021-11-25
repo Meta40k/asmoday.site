@@ -7,3 +7,12 @@
 body {
     background-color: bisque;
 }
+
+.nav-item {
+    border: red 1px solid;
+}
+
+.nav-link {
+    border: black 1px solid;
+    color: red !important;
+}
