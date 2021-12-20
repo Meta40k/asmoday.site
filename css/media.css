@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    .section-wrap {
+        height: auto;
+        margin: 15px 0 0 0;
+        /* border: solid 1px red; */
+    }
+    .section-img{
+        height: auto;
+        margin: 15px 0 0 0;
+        /* border: solid 1px green; */
+    }
+}

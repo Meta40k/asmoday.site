@@ -4,7 +4,8 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -19,7 +20,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    border: solid 1px black;
 }
 
 .nav-link {
@@ -47,15 +47,45 @@ header {
 /* ВТОРАЯ СЕКЦИЯ */
 .section2 {
     /* background-color: #eee; */
+
 }
 
-.section2-wrap {
+
+.section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+}
+
+.section-wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
+    height: 500px;
 }
 
+
+
+/* ТРЕТЬЯ СЕКЦИЯ */
 .section3 {
+    height: 500px;
+    /* background-color: #f7dd70; */
+}
+
+.section5{
+    background-color: #f7dd70;
+    height: 300px;
+}
+
+.section5-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     height: 300px;
 }
