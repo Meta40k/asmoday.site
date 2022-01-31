@@ -1,3 +1,8 @@
+/* Коды цветов, используемые на сайте */
+/* #7de7d8 морской */
+/* #e785c4 розовый */
+/* #f7dd69 желтый */
+
 .Title {
     font-size: 30px;
     font-weight: bold;
@@ -8,6 +13,35 @@
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 30px;
-    text-indent: 2em;
+    text-indent: 1em;
     color: #8b8b8b;
+}
+
+
+.arrow-3 {
+    color: #337AB7;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px; 
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
 }

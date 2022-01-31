@@ -67,7 +67,7 @@ header {
 
 
 /*------------- ПЯТАЯ СЕКЦИЯ------------------ */
-.section5{
+.section5 {
     background-color: #000;
     background: url(../img/specialists.jpg) no-repeat center;
     background-size: cover;
@@ -76,7 +76,7 @@ header {
 }
 
 
-.section5-wrap{
+.section5-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,12 +90,12 @@ header {
 
 
 /* ШЕСТАЯ СЕКЦИЯ */
-.section6_img{
+.section6_img {
     padding: 50px 50px 50px 50px;
 }
 
 .faq {
- margin-top: 40px;
+    margin-top: 40px;
     align-items: center;
     border: solid 1px red;
 }
@@ -103,20 +103,15 @@ header {
 .faq-img {
     background-image: url('../img/faq.png');
     background-repeat: no-repeat;
- height: 600px;
- border: solid 1px red;
+    height: 600px;
+    border: solid 1px red;
 }
 
 
 /* ================== SECTION WATCH ============= */
 
-.section-watch {
-    background: url(../img/background-wathc.jpg) center no-repeat;
-    background-size: cover;
-}
 
-
-.section-watch h3 {
+/* .section-watch h3 {
     font-size: 33px;
     color: #484848;
 }
@@ -124,7 +119,7 @@ header {
 .section-watch h4 {
     color: #484848;
     font-size: 50px;
-}
+} */
 
 .section-tabs .nav-pills .nav-link {
     font-size: 13px;
@@ -139,13 +134,14 @@ header {
 }
 
 .section-tabs .nav-pills .nav-item .nav-link.active {
-    background-color: #f42267;
+    /* background-color: #f42267; */
+    background-color: #e785c4;
     color: #fff;
     box-shadow: 0 4px 16px rgba(0, 0, 0, .35);
 }
 
 .btn-shadow {
-    box-shadow: 0 10px 0 #ff5990;
+    box-shadow: 0 3px 0 #ff5990;
     border-radius: 10px;
     padding: 10px 25px;
     transform: all .5s;
@@ -154,5 +150,22 @@ header {
 .btn-shadow:hover {
     box-shadow: 0 5px 0 #ff5990;
     color: #fff;
-    background-color: #da1757;
+    background-color: #7de7d8;
+    /* background-color: #e785c4; */
+
+}
+
+
+
+
+.wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.imgg {
+    box-shadow: 0px 10px 15px 10px rgb(61, 61, 61);
+    border: solid 1px #ccc;
 }
